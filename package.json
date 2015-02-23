@@ -1,0 +1,17 @@
+{
+    "name": "market_scraper",
+    "version": "0.0.0",
+    "description": "Scraps real-time market data into a postgreSQL database",
+    "dependencies": {
+        "orm": "*"
+    },
+    "scripts": {
+        "start": "nodemon index.coffee"
+    },
+    "author": "Khalil Fazal",
+    "license": "GPL-3",
+    "repository": {
+        "type": "github",
+        "url":  "https://github.com/khalilfazal/market_scraper"
+    }
+}
